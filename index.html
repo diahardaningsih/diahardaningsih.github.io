@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayurfam</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="bayam">
+                <h2 class="heading">Sayurfam Shop</h2>
+                <p class="sub-heading">Sayur & Buah</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 15K</h4>
+                <p class="item">Sayur</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 30K</h4>
+                <p class="item">Buah</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Sayurfam</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🍏</div>
+                <h3>About</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rerum sequi minima, mollitia officiis voluptatum natus.
+                </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/801x801" alt="">
+            <img src="https://source.unsplash.com/random/802x802" alt="">
+            <img src="https://source.unsplash.com/random/803x803" alt="">
+            <img src="https://source.unsplash.com/random/804x804" alt="">
+            <img src="https://source.unsplash.com/random/805x805" alt="">
+            <img src="https://source.unsplash.com/random/806x806" alt="">
+            <img src="https://source.unsplash.com/random/807x807" alt="">
+            <img src="https://source.unsplash.com/random/808x808" alt="">
+            <img src="https://source.unsplash.com/random/809x809" alt="">
+            <img src="https://source.unsplash.com/random/8010x8010" alt="">
+
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
